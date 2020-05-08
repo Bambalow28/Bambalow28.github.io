@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class='background'>
+<head>
+	<title>SUPREMO</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="StyleSheet.css">
+	<link rel='icon' href='images/favicon.ico'>
+	<!--<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>-->
+	<script src='jquery-3.4.1.js'></script>
+	
+	<script type='text/javascript'>
+		function buttonPressed()
+		{
+			window.location = "gameWebpage.html";
+		}
+		
+		window.onload = function()
+		{
+			document.getElementById('music').play();
+		}	
+		
+		$(document).ready(function() 
+		{ 
+		var audio = $('#enterMusic')[0];
+			$("a").mouseenter(function()
+			{
+				audio.play();
+			});
+		});
+	</script>
+</head>
+<center>
+<body>
+<div class='wrapper'>
+	<audio loop id='music' src='music/street.mp3'></audio>
+	<audio id='enterMusic' src='music/boring.mp3'></audio>
+	
+	<div class='rightSide'>
+	<h1 class='newWay'>A New Way To Get Dressed</h1>
+	
+	<form>
+	<a href='#' onclick='buttonPressed()' class='button'>ENTER</a>
+	</form>
+	</div>
+</div>
+</body>
+</center>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

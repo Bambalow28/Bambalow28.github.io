@@ -1,0 +1,259 @@
+/* Imported Fonts */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Caesar+Dressing);
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+
+/* Universal Selector */
+*
+{
+	font-family: 'Helvetica', Arial, sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+/* Universal Styles */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+	padding: 15px 25px;
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	transition-duration: 0.4s;
+	font-family: 'Caesar Dressing', Arial, sans-serif;
+}
+
+li a:hover {
+    background-color: #F78181;
+	
+}
+.title
+{
+	color: white;
+}
+.menu
+{
+	float: right;
+}
+.mainBackground
+{
+	background-color: #2E2E2E;
+}
+
+/* Index Page */
+.rightSide
+{
+	width:600px;
+	height:300px;
+	border:0;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.newWay
+{
+	font-family: 'Oleo Script', Helvetica, sans-serif;
+	font-size: 100px;
+	color: #2b2b2b;
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	color: #D8D8D8;
+}
+.button {
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  display: inline-block;
+  padding: 2rem 6.25rem;
+  border-radius: 10rem;
+  color: #2E2E2E;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 5px 5px 3px grey;
+}
+.button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #D8D8D8;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #F78181;
+  transition: all .3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.button:hover {
+  color: #D8D8D8;
+}
+.button:hover:before {
+  width: 100%;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Index Page Background */
+.background
+{
+	background-image: url('images/background.gif');
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Home Page */
+
+
+#signup
+{
+	margin:auto;
+	border-style:groove;
+	width:500px;
+	height:150px;
+	padding:10px;
+}
+
+/* Closet Page */
+.newButton
+{
+	position: relative;
+	border-radius: 12px;
+	height: 40px;
+	box-shadow: 5px 5px 3px grey;
+	display: inline-block;
+}
+
+/* Add Clothes Page */
+.clothesIcons::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  transition: box-shadow .3s;
+}
+
+.column:hover
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  /*box-shadow: 5px 5px 3px grey;
+  box-shadow: 0 0 20px grey;
+}
+
+.clothes
+{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
