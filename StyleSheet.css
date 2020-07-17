@@ -56,13 +56,15 @@ li a:hover {
 }
 
 /* Index Page */
+body
+{
+	text-align: center;
+}
 .rightSide
 {
-	width:600px;
-	height:300px;
-	border:0;
-	margin-top: 100px;
-	margin-left: 50px;
+	text-align: left;
+	width: 800px;
+	margin: 0 auto;
 }
 .newWay
 {
