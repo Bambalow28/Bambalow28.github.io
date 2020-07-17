@@ -185,6 +185,17 @@ li a:hover {
 	width: 100%;
 	height: auto;
 	vertical-align: middle;
+}*/
+
+body
+{
+	text-align: center;
+}
+
+.wrapper
+{
+	width: 800px;
+	margin: 0 auto;
 }
 
 
