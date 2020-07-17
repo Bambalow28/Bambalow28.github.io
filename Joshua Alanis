@@ -36,7 +36,7 @@
 	<audio id='enterMusic' src='music/boring.mp3'></audio>
 	
 	<div class='rightSide'>
-	<h1 class='newWay'>A New Way To Get Dressed</h1>
+	<h1 class='newWay'>A New Way To Get Dressed, TESTING</h1>
 	
 	<form>
 	<a href='#' onclick='buttonPressed()' class='button'>ENTER</a>
