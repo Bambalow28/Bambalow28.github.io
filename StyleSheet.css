@@ -56,13 +56,13 @@ li a:hover {
 }
 
 /* Index Page */
-.profilepic
+img.profilepic
 {
 	display: block;
-	border-radius: 50%;
-  	margin-left: 100;
-  	margin-right: 100;
-  	width: 50%;
+	/*border-radius: 50%;*/
+  	margin-left: auto;
+  	margin-right: auto;
+  	/*width: 50%;*/
 }	
 
 .rightSide
