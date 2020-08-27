@@ -56,6 +56,10 @@ li a:hover {
 }
 
 /* Index Page */
+img
+{
+	border-radius: 50%;	
+}
 .rightSide
 {
 	text-align: center;
