@@ -58,7 +58,10 @@ li a:hover {
 /* Index Page */
 img
 {
-	border-radius: 50%;	
+	border-radius: 50%;
+	position: fixed;
+	left: 50%;
+	top: 50%;
 }
 .rightSide
 {
