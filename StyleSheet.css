@@ -56,14 +56,16 @@ li a:hover {
 }
 
 /* Index Page */
-img
+.profilepic
 {
 	border-radius: 50%;
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
   	width: 50%;
+}	
 }
+
 .rightSide
 {
 	text-align: center;
