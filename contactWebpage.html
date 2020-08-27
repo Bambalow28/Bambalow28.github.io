@@ -5,6 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="StyleSheet.css">
 	<link rel='icon' href='images/favicon.ico'>
+	
+	<script>
+		function commentClicked() 
+		{
+  			var x = document.getElementById("commentSuggestion");
+  				if (x.style.display === "none") 
+				{
+    					x.style.display = "block";
+  				} 
+				else 
+				{
+    					x.style.display = "none";
+  				}
+		}
+	</script>
 </head>
 <body>
 	<a href='index.html'>
@@ -28,7 +43,7 @@
 		<br>
 		<label class='title'>Got a Comment?</label>
 		<br>
-		<textarea rows="5" cols="60" name="commentBox" placeholder="Comment or Suggestion? Enter Here."> </textarea>
+		<textarea id="commentSuggestion" rows="5" cols="60" name="commentBox" placeholder="Comment or Suggestion? Enter Here." style="Display: none" onclick="commentClicked()"> </textarea>
 		<br>
 		<input type="submit" value="SUBMIT" class='newButton'></label>
 	</form>
