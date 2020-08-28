@@ -60,9 +60,8 @@ img.profilepic
 {
 	display: block;
 	border-radius: 50%;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 100%;
+  	margin-left: 50px;
+  	margin-right: 50px;
 }	
 
 .rightSide
