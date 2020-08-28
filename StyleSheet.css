@@ -62,7 +62,7 @@ img.profilepic
 	border-radius: 50%;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 50%;
+  	width: 100%;
 }	
 
 .rightSide
@@ -81,7 +81,7 @@ img.profilepic
 	color: #D8D8D8;
 }
 .button {
-  font-family: 'Oleo Script', Helvetica, sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   display: inline-block;
   padding: 2rem 6.25rem;
   border-radius: 10rem;
