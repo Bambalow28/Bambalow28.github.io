@@ -182,9 +182,9 @@ img.profilepic
   float: left;
   width: 33.33%;
   padding: 5px;
+}
   /*box-shadow: 5px 5px 3px grey;
   box-shadow: 0 0 20px grey;
-}
 
 .clothes
 {
@@ -196,7 +196,7 @@ img.profilepic
 {
 	color: white;
 	padding: 8px;
-	background-color: #e7e7e7; color: black;
+	background-color: #2196F3;
 }
 
 
