@@ -92,7 +92,7 @@ img.profilepic
   overflow: hidden;
   z-index: 1;
   box-shadow: 5px 5px 3px grey;
-	width: 70px;
+	width: auto;
 	height: 30px;
 	justify-content: center;
 }
@@ -132,18 +132,7 @@ img.profilepic
   transform: translateY(4px);
 }
 
-/* Index Page Background */
-.background
-{
-	background-image: url('images/background.gif');
-	height: 100%;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /* Home Page */
-
 
 #signup
 {
@@ -186,15 +175,7 @@ img.profilepic
   width: 33.33%;
   padding: 5px;
 }
-  /*box-shadow: 5px 5px 3px grey;
-  box-shadow: 0 0 20px grey;
 
-.clothes
-{
-	width: 100%;
-	height: auto;
-	vertical-align: middle;
-}*/
 .test
 {
 	color: white;
