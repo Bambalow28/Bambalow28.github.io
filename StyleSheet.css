@@ -94,6 +94,7 @@ img.profilepic
   box-shadow: 5px 5px 3px grey;
 	width: 70px;
 	height: 30px;
+	justify-content: center;
 }
 .button:after {
   content: '';
