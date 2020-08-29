@@ -40,7 +40,7 @@ li a {
 
 li a:hover {
     background-color: #F78181;
-	
+
 }
 .title
 {
@@ -58,10 +58,11 @@ li a:hover {
 /* Index Page */
 img.profilepic
 {
-	border-radius: 50%;
+	postion: absolute;
+		border-radius: 50%;
   	margin-left: 50px;
   	margin-right: 50px;
-}	
+}
 
 .rightSide
 {
@@ -198,75 +199,3 @@ img.profilepic
 	padding: 8px;
 	background-color: #2196F3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
