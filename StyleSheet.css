@@ -233,6 +233,8 @@ img.profilepic
   text-decoration: none;
 }
 
- @media only screen and (max-width:480px) {
-  .all-news-btn {width: 100%; font-size: 4.25em; }
-}
+ @media only screen and (max-width:480px)
+ {
+  	.all-news-btn {width: 100%; font-size: 4.25em;}
+		.button {display:none;}
+	}
