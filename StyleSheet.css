@@ -239,7 +239,7 @@ img.profilepic
 		.button {display:none;}
 }
 
-@media(min-width: 800px)
+@media(min-width: 700px)
 {
     .all-news-btn{display:none;}
 }
