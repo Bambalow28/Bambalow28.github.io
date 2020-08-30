@@ -3,10 +3,24 @@
 <head>
 	<title>SUPREMO - Resume</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src='jquery-3.4.1.js'></script>
 	<link rel="stylesheet" href="StyleSheet.css">
 	<link rel='icon' href='images/favicon.ico'>
+	<style>
+		body
+		{
+			opacity: 1;
+			transition: 1s opacity;
+		}
+		body.fade-out
+		{
+			opacity: 0;
+			transition: none;
+		}
+	</style>
 </head>
 <body>
+	<script>document.body.className += 'fade-out';</script>
 	<a href='index.html'>
 		<img src='images/LOGO.png' alt='Error!' style='width:42px;height:42px;border:0;'>
 	</a>
@@ -21,6 +35,15 @@
 	<div class="test">GET TO KNOW ME</div>
 	</center>
 </body>
+<script type="text/javascript">
+$(document).ready(function()
+{
+	$(function()
+	{
+		$('body').removeClass('fade-out');
+	});
+});
+</script>
 <footer class="footer">
 	<p>Created By: Joshua Alanis</p>
 </footer>
