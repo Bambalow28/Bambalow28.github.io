@@ -182,6 +182,8 @@ img.profilepic
 	color: white;
 	padding: 8px;
 	background-color: #2196F3;
+	border: 1px solid;
+  box-shadow: 5px 10px #888888;
 }
 
 .footer
