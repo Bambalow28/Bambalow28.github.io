@@ -9,7 +9,6 @@
 	font-family: 'Helvetica', Arial, sans-serif;
 	box-sizing: border-box;
 	text-decoration: none;
-	/*cursor: auto;*/
 }
 
 /* Universal Styles */
@@ -21,10 +20,10 @@ ul {
     overflow: hidden;
 }
 
-li
+/*li
 {
 	float: right;
-}
+}*/
 
 li a {
     display: block;
@@ -47,6 +46,7 @@ li a:hover {
 .title
 {
 	color: white;
+	float: right;
 }
 .menu
 {
