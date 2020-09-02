@@ -20,10 +20,10 @@ ul {
     overflow: hidden;
 }
 
-/*li
+li
 {
 	float: right;
-}*/
+}
 
 li a {
     display: block;
@@ -46,12 +46,11 @@ li a:hover {
 .title
 {
 	color: white;
-	float: right;
 }
-.menu
+/*.menu
 {
 	float: right;
-}
+}*/
 .mainBackground
 {
 	background-color: #2E2E2E;
