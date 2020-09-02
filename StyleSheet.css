@@ -200,7 +200,7 @@ img.profilepic
 .mainInfo
 {
 	display: block;
-  color: white;
+  color: black;
   text-align: center;
 	padding: 15px 25px;
 	cursor: default;
@@ -210,7 +210,6 @@ img.profilepic
 	border-radius: 15px;
 	transition-duration: 0.4s;
 	font-family: 'Helvetica', Arial, sans-serif;
-	background-color:black;
 }
 
 /* NEW BUTTON */
