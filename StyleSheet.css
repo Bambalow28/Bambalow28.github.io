@@ -26,9 +26,9 @@ li
 }
 
 li a {
-    display: block;
-    color: black;
-    text-align: center;
+  display: block;
+  color: black;
+  text-align: center;
 	padding: 15px 25px;
 	cursor: pointer;
 	text-decoration: none;
@@ -195,6 +195,22 @@ img.profilepic
 	width: 100%;
 	color: #808080;
 	text-align: center;
+}
+
+.mainInfo
+{
+	display: block;
+  color: white;
+  text-align: center;
+	padding: 15px 25px;
+	cursor: default;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	transition-duration: 0.4s;
+	font-family: 'Helvetica', Arial, sans-serif;
+	background-color:black;
 }
 
 /* NEW BUTTON */
