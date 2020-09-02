@@ -239,8 +239,8 @@ img.profilepic
 		.button {display:none;}
 }
 
-@media only screen and (min-width: 600px)
+@media only screen and (min-width:600px;)
 {
-    .all-news-btn{display:none;}
-		
+    .all-news-btn {display:none;}
+
 }
