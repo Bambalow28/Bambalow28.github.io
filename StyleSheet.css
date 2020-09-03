@@ -248,11 +248,21 @@ img.profilepic
   background-image: linear-gradient(to bottom, #666666, #000000);
   text-decoration: none;
 }
+.banner
+{
+	width:500px;
+	height:200px;
+}
 
 @media only screen and (max-width:480px)
 {
   	.all-news-btn {width: 100%; font-size: 4.25em;}
 		.button {display:none;}
+		.banner
+		{
+			width: 100%;
+			height: 100%;
+		}
 }
 
 @media only screen and (min-width:490px)
