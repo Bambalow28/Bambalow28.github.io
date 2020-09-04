@@ -261,6 +261,19 @@ img.profilepic
 	margin-left:10px;
 }
 
+input[type="image"]
+{
+	display: block;
+	text-align: center;
+	padding: 15px 25px;
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	transition-duration: 0.4s;
+}
+
 input[type="image"]:hover
 {
 	background-color: #F78181;
