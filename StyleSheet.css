@@ -264,7 +264,6 @@ img.profilepic
 input[type="image"]
 {
 	text-align: center;
-	padding: 15px 25px;
 	cursor: pointer;
 	text-decoration: none;
 	border-radius: 15px;
