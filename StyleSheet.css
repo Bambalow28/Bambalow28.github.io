@@ -269,7 +269,7 @@ input [type="image"]
 input[type="image"]:hover
 {
 	border-style: solid;
-	border-color: #87CEFF;
+	border-color: #666666;
 	transition-duration: 0.4s;
 }
 
