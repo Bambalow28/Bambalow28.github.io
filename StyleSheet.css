@@ -261,7 +261,7 @@ img.profilepic
 	margin-left:10px;
 }
 
-input[type="image"].hover
+input[type="image"]:hover
 {
 	background-color: #F78181;
 }
