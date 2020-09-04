@@ -263,9 +263,7 @@ img.profilepic
 
 input[type="image"]
 {
-	text-align: center;
 	cursor: pointer;
-	text-decoration: none;
 	border-radius: 15px;
 	transition-duration: 0.4s;
 }
