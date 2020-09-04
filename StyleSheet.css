@@ -43,6 +43,12 @@ li a:hover {
     background-color: #F78181;
 
 }
+
+.title
+{
+	color: white;
+}
+
 .menu
 {
 	float: right;
