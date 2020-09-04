@@ -261,7 +261,7 @@ img.profilepic
 	margin-left:10px;
 }
 
-.linkBtns:hover
+input.linkBtns:hover
 {
 	background-color: #F78181;
 }
