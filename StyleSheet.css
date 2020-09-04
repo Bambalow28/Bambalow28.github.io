@@ -263,7 +263,7 @@ img.profilepic
 
 .linkBtns:hover
 {
-	color: #D8D8D8;
+	background-color: #F78181;
 }
 
 @media only screen and (max-width:480px)
