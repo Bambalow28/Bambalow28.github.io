@@ -261,6 +261,11 @@ img.profilepic
 	margin-left:10px;
 }
 
+.linkBtns:hover
+{
+	color: #D8D8D8;
+}
+
 @media only screen and (max-width:480px)
 {
   	.all-news-btn {width: 100%; font-size: 4.25em;}
