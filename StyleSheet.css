@@ -261,16 +261,11 @@ img.profilepic
 	margin-left:10px;
 }
 
-input[type="image"]
-{
-	cursor: pointer;
-	border-radius: 15px;
-	transition-duration: 0.4s;
-}
-
 input[type="image"]:hover
 {
 	background-color: #F78181;
+	border-radius: 15px;
+	transition-duration: 0.4s;
 }
 
 @media only screen and (max-width:480px)
