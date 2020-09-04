@@ -264,10 +264,15 @@ img.profilepic
 	margin-left:10px;
 }
 
+input [type="image"]
+{
+	border-radius: 15px;
+}
+
 input[type="image"]:hover
 {
-	background-color: #7F7F7F;
-	border-radius: 15px;
+	border-style: solid;
+	border-color: #7F7F7F;
 	transition-duration: 0.4s;
 }
 
