@@ -20,6 +20,20 @@
 			transition: none;
 		}
 	</style>
+	<script>
+		function facebookLink()
+		{
+			window.open('https://www.facebook.com/bambalow28');
+		}
+		function twitterLink()
+		{
+			window.open('https://www.twitter.com/bambalow28');
+		}
+		function instagramLink()
+		{
+			window.open('https://www.instagram.com/bambalow28');
+		}
+	</script>
 </head>
 <body>
 	<script>document.body.className += 'fade-out';</script>
@@ -49,9 +63,9 @@
 	<br>
 	<a class='mainInfo' style='background-color: #595959;color:white;'>Software Developer</a>
 	<br>
-	<input type='image' src='images/facebookImg.png' alt='Facebook Link' width='60' height='60'>
-	<input type='image' src='images/twitterImg.png' alt='Twitter Link' width='60' height='60' >
-	<input type='image' src='images/instagramImg.png' alt='Instagram Link' width='60' height='60' >
+	<input type='image' src='images/facebookImg.png' alt='Facebook Link' width='60' height='60' onclick='facebookLink()'>
+	<input type='image' src='images/twitterImg.png' alt='Twitter Link' width='60' height='60' onclick='twitterLink()'>
+	<input type='image' src='images/instagramImg.png' alt='Instagram Link' width='60' height='60' onclick='instagramLink()'>
 	</center>
 </body>
 <script type="text/javascript">
