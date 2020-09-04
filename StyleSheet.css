@@ -263,7 +263,7 @@ img.profilepic
 
 input[type="image"]:hover
 {
-	background-color: #F78181;
+	background-color: #7F7F7F;
 	border-radius: 15px;
 	transition-duration: 0.4s;
 }
