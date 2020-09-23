@@ -199,7 +199,7 @@ img.profilepic
 }
 .projectTitle
 {
-	background-color: #2196F3;
+	background-color: #333333;
 	display: block;
 	color: #dddddd;
   text-align: center;
@@ -212,7 +212,7 @@ img.profilepic
 	transition-duration: 0.4s;
 	font-family: 'Helvetica', Arial, sans-serif;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	width: 30%;
+	width: 40%;
 }
 
 .footer
