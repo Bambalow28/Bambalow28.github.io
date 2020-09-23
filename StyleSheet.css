@@ -41,7 +41,6 @@ li a {
 
 li a:hover {
     background-color: #F78181;
-
 }
 
 .title
@@ -213,6 +212,10 @@ img.profilepic
 	font-family: 'Helvetica', Arial, sans-serif;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	width: 40%;
+}
+.projectTitle:hover
+{
+	background-color: #F78181;
 }
 
 .footer
