@@ -34,7 +34,16 @@
 	}
 	function educationShow()
 	{
+		var checkEducationView = document.getElementById("educationDescription");
 
+		if (checkEducationView.style.display === "none")
+		{
+			checkEducationView.style.display = "block";
+		}
+		else
+		{
+			checkEducationView.style.display = "none";
+		}
 	}
 	function experienceShow()
 	{
@@ -70,6 +79,10 @@
 			<p class="descriptions">Fundamental knowledge in Microsoft Office software (Word, Excel, Outlook)</p>
 		</div>
 		<h1 class="resumeMenuTitle" onclick="educationShow()">Education</h1>
+		<div class="qualifyDescriptionShow" id="educationDescription" style="Display: none;">
+			<p class="descriptions">Sheridan College</p>
+			<p class="descriptions">Ontario College Diploma</p>
+		</div>
 		<h1 class="resumeMenuTitle" onclick="experienceShow()">Work Experience</h1>
 	</center>
 </body>
