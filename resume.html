@@ -22,11 +22,12 @@
 	function qualificationShow()
 	{
 		var checkQualifyView = document.getElementById("qualifyDescription");
+		var resumeTitleView = document.getElementById("resumeMenu");
 
 		if (checkQualifyView.style.display === "none")
 		{
 			checkQualifyView.style.display = "block";
-			checkQualifyView.style.backgroundColor = "#F78181";
+			resumeTitleView.style.backgroundColor = "#F78181";
 		}
 		else
 		{
@@ -36,11 +37,12 @@
 	function educationShow()
 	{
 		var checkEducationView = document.getElementById("educationDescription");
+		var resumeTitleView = document.getElementById("resumeMenu");
 
 		if (checkEducationView.style.display === "none")
 		{
 			checkEducationView.style.display = "block";
-			checkQualifyView.style.backgroundColor = "#F78181";
+			resumeTitleView.style.backgroundColor = "#F78181";
 		}
 		else
 		{
@@ -68,7 +70,7 @@
 	<center>
 		<h1 class='resumeTitle'>Welcome To My Personalized Resume</h1>
 		<br>
-		<h1 class="resumeMenuTitle" onclick="qualificationShow()">Highlights of Qualification</h1>
+		<h1 id="resumeMenu" class="resumeMenuTitle" onclick="qualificationShow()">Highlights of Qualification</h1>
 		<div class="qualifyDescriptionShow" id="qualifyDescription" style="Display: none;">
 			<p class="descriptions">Experienced with Java, C#, JavaScript, HTML/CSS, MySQL</p>
 			<p class="descriptions">Knowledgable in Computer Networking</p>
@@ -80,7 +82,7 @@
 			<p class="descriptions">Able to work independently or in a team environment</p>
 			<p class="descriptions">Fundamental knowledge in Microsoft Office software (Word, Excel, Outlook)</p>
 		</div>
-		<h1 class="resumeMenuTitle" onclick="educationShow()">Education</h1>
+		<h1 id="resumeMenu "class="resumeMenuTitle" onclick="educationShow()">Education</h1>
 		<div class="qualifyDescriptionShow" id="educationDescription" style="Display: none;">
 			<p class="descriptions">Sheridan College</p>
 			<p class="descriptions">Ontario College Diploma</p>
