@@ -21,7 +21,17 @@
 	<script>
 	function qualificationShow()
 	{
-		document.getElementById("qualifyDescription").innerHTML = "It Works!";
+		var checkQualifyView = document.getElementById("qualifyDescription");
+
+		if (checkQualifyView.style.display === "none")
+		{
+			x.style.display = "block";
+			document.getElementById("qualifyDescription").innerHTML = "It Works!";
+		}
+		else
+		{
+			checkQualifyView.style.display = "none";
+		}
 	}
 	function educationShow()
 	{
