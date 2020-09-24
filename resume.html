@@ -18,6 +18,20 @@
 			transition: none;
 		}
 	</style>
+	<script>
+	function qualificationShow()
+	{
+		document.getElementById("qualifyDescription").innerHTML = "It Works!";
+	}
+	function educationShow()
+	{
+
+	}
+	function experienceShow()
+	{
+
+	}
+	</script>
 </head>
 <body>
 	<script>document.body.className += 'fade-out';</script>
@@ -34,9 +48,10 @@
 	<center>
 		<h1 class='resumeTitle'>Welcome To My Personalized Resume</h1>
 		<br>
-		<h1 class="resumeMenuTitle">Highlights of Qualification</h1>
-		<h1 class="resumeMenuTitle">Education</h1>
-		<h1 class="resumeMenuTitle">Work Experience</h1>
+		<h1 class="resumeMenuTitle" onclick="qualificationShow()">Highlights of Qualification</h1>
+		<p id="qualifyDescription"></p>
+		<h1 class="resumeMenuTitle" onclick="educationShow()">Education</h1>
+		<h1 class="resumeMenuTitle" onclick="experienceShow()">Work Experience</h1>
 	</center>
 </body>
 <script type="text/javascript">
