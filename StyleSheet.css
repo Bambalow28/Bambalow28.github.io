@@ -239,7 +239,7 @@ img.profilepic
 {
 	background-color: #F78181;
 }
-.resumeMenuTitle:focus
+.resumeMenuTitle:active
 {
 	background-color: #F78181;
 }
