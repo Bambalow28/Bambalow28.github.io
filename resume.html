@@ -22,7 +22,7 @@
 	function qualificationShow()
 	{
 		var checkQualifyView = document.getElementById("qualifyDescription");
-		var resumeTitleView = document.getElementById("resumeMenu");
+		var resumeTitleView = document.getElementById("qualifyMenu");
 
 		if (checkQualifyView.style.display === "none")
 		{
@@ -38,12 +38,12 @@
 	function educationShow()
 	{
 		var checkEducationView = document.getElementById("educationDescription");
-		var resumeTitleView = document.getElementById("resumeMenu");
+		var educationTitleView = document.getElementById("educationMenu");
 
 		if (checkEducationView.style.display === "none")
 		{
 			checkEducationView.style.display = "block";
-			resumeTitleView.style.backgroundColor = "#F78181";
+			educationTitleView.style.backgroundColor = "#F78181";
 		}
 		else
 		{
@@ -53,7 +53,19 @@
 	}
 	function experienceShow()
 	{
+		var checkExperienceView = document.getElementById("experienceDescription");
+		var experienceTitleView = document.getElementById("experienceMenu");
 
+		if (checkExperienceView.style.display === "none")
+		{
+			checkExperienceView.style.display = "block";
+			experienceTitleView.style.backgroundColor = "#F78181";
+		}
+		else
+		{
+			checkEducationView.style.display = "none";
+			experienceTitleView.style.backgroundColor = "#595959";
+		}
 	}
 	</script>
 </head>
@@ -72,7 +84,7 @@
 	<center>
 		<h1 class='resumeTitle'>Welcome To My Personalized Resume</h1>
 		<br>
-		<h1 id="resumeMenu" class="resumeMenuTitle" onclick="qualificationShow()">Highlights of Qualification</h1>
+		<h1 id="qualifyMenu" class="resumeMenuTitle" onclick="qualificationShow()">Highlights of Qualification</h1>
 		<div class="qualifyDescriptionShow" id="qualifyDescription" style="Display: none;">
 			<p class="descriptions">Experienced with Java, C#, JavaScript, HTML/CSS, MySQL</p>
 			<p class="descriptions">Knowledgable in Computer Networking</p>
@@ -84,12 +96,15 @@
 			<p class="descriptions">Able to work independently or in a team environment</p>
 			<p class="descriptions">Fundamental knowledge in Microsoft Office software (Word, Excel, Outlook)</p>
 		</div>
-		<h1 id="resumeMenu "class="resumeMenuTitle" onclick="educationShow()">Education</h1>
+		<h1 id="educationMenu "class="resumeMenuTitle" onclick="educationShow()">Education</h1>
 		<div class="qualifyDescriptionShow" id="educationDescription" style="Display: none;">
 			<p class="descriptions">Sheridan College</p>
 			<p class="descriptions">Ontario College Diploma</p>
 		</div>
-		<h1 class="resumeMenuTitle" onclick="experienceShow()">Work Experience</h1>
+		<h1 id="experienceMenu" class="resumeMenuTitle" onclick="experienceShow()">Work Experience</h1>
+		<div class="qualifyDescriptionShow" id="experienceDescription" style="Display: none;">
+			<p class="descriptions">TEST</p>
+		</div>
 	</center>
 </body>
 <script type="text/javascript">
