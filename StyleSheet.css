@@ -218,6 +218,24 @@ img.profilepic
 	background-color: #F78181;
 }
 
+.resumeMenuTitle
+{
+	background-color: #595959;
+	display: block;
+	color: #dddddd;
+	text-align: center;
+	padding: 15px 25px;
+	cursor: default;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	transition-duration: 0.4s;
+	font-family: 'Helvetica', Arial, sans-serif;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 500px;
+}
+
 .footer
 {
 	position: absolute;
