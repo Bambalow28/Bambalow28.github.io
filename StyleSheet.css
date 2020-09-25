@@ -260,7 +260,7 @@ img.profilepic
 .descriptions
 {
 	background-color: #343d52;
-	display: block;
+	display: inline-block;
 	color: #dddddd;
 	text-align: center;
 	padding: 15px 25px;
