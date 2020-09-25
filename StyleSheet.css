@@ -14,27 +14,19 @@
 /* Universal Styles */
 
 ul {
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 li
 {
-
+	float: right;
 }
 
 li a {
-
-}
-
-li a:hover {
-
-}
-
-.title
-{
-	color: white;
-	float: right;
-	display: block;
+  display: block;
   color: black;
   text-align: center;
 	padding: 15px 25px;
@@ -46,18 +38,19 @@ li a:hover {
 	transition-duration: 0.4s;
 	font-family: 'Helvetica', Arial, sans-serif;
 }
-.title:hover
+
+li a:hover {
+    background-color: #F78181;
+}
+
+.title
 {
-	background-color: #F78181;
+	color: white;
 }
 
 .menu
 {
 	float: right;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
 }
 .mainBackground
 {
