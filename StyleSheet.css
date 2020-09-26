@@ -64,6 +64,11 @@ img.profilepic
 	height:200px;
 	border-radius: 50%;
 }
+img.schoolPic
+{
+	width:200px;
+	height:100px;
+}
 
 .rightSide
 {
