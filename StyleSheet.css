@@ -66,8 +66,8 @@ img.profilepic
 }
 img.schoolPic
 {
-	width: auto;
-	height: 100px;
+	width: 100%;
+	height: 200px;
 }
 
 .rightSide
