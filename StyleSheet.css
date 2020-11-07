@@ -13,6 +13,12 @@
 
 /* Universal Styles */
 
+hr{
+        height: 1px;
+        background-color: #ccc;
+        border: none;
+    }
+
 ul {
     list-style-type: none;
     margin: 0;
