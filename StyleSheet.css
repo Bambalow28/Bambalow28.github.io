@@ -52,6 +52,7 @@ li a:hover {
 .title
 {
 	color: white;
+	background-image: url('/images/profileBackground.jpg');
 }
 
 .menu
