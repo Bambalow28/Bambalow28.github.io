@@ -54,6 +54,11 @@ li a:hover {
 	color: white;
 }
 
+.profileArea
+{
+	background-image: url('/images/backgroundImage.jpg');
+}
+
 .menu
 {
 	float: right;
